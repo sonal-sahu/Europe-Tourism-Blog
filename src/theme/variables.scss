@@ -4,6 +4,9 @@
 /** Ionic CSS Variables **/
 :root {
 
+--ion-background-color: #4C4143;
+
+
   /** primary **/
   --ion-color-primary: #3880ff;
   --ion-color-primary-rgb: 56,128,255;
@@ -76,4 +79,30 @@
   --ion-color-light-shade: #d7d8da;
   --ion-color-light-tint: #f5f6f9;
 
+}
+.title{
+  text-align:center;
+  color: var(--ion-color-warning);
+  font-weight:bold;
+   font-size:1.5em;
+}
+.centerimg{
+ max-width:100%;
+  height:400px;
+  object-fit:cover;
+}
+p {
+  color: white;
+}
+
+.labelcolor{
+  color:  white;
+}
+
+ion-label{
+  color:  var(--ion-color-warning);
+}
+.button-row{
+  text-align: center;
+  margin:0 auto;
 }

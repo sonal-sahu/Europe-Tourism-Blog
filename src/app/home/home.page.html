@@ -1,10 +1,58 @@
 <ion-header>
-  <ion-toolbar>
-    <ion-title>Home</ion-title>
+  <ion-toolbar color="primary">
+    <ion-title class="title">Europe Tourism</ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content padding>
-  The world is your oyster.
-  <p>If you get lost, the <a target="_blank" rel="noopener" href="https://ionicframework.com/docs">docs</a> will be your guide.</p>
+<ion-content >
+
+ <ion-card>
+    <img class="centerimg"  src="https://www.ofx.com/-/media/Blog/10%20best%20places%20to%20study%20abroad%20in%20Europe/CS-941%20France_Article-1000x563.ashx?h=563&w=1000&la=en-AU&hash=87D3E3EDE3F27D58E2C33F415E666227DAC566AF" alt="Europe Image">
+    <ion-card-header>
+        <ion-card-title class="title" >Europe</ion-card-title>
+    </ion-card-header>
+    <ion-card-content color="primary">
+        <p >It may be one of the smaller continents, but what Europe lacks in size, it makes up for in style: staggering alpine views, fields of lavender and vine, limestone cliffs, and art and architecture threatening to upstage some of nature's finest. Here, ares some of the most breathtaking places across Europe.</p>
+    </ion-card-content>
+</ion-card>
+
+<ion-list  lines="inset">
+	<ion-list-header>
+   	 <ion-title class="title">Top Destinations To Travel</ion-title>
+  </ion-list-header>
+
+  <ion-item >
+    <ion-label class="labelcolor">Paris</ion-label>
+    <ion-button  href="/details/Paris" fill="solid" slot="end">View</ion-button>
+  </ion-item>
+  <ion-item>
+    <ion-label class="labelcolor">Rome</ion-label>
+     <ion-button href="/details/Rome" fill="solid" slot="end">View</ion-button>
+  </ion-item>
+  <ion-item >
+    <ion-label class="labelcolor">Venice</ion-label>
+     <ion-button href="/details/Venice" fill="solid" slot="end">View</ion-button>
+  </ion-item>
+  <ion-item >
+    <ion-label class="labelcolor">London</ion-label>
+     <ion-button href="/details/London" fill="solid" slot="end">View</ion-button>
+  </ion-item>
+  <ion-item >
+    <ion-label class="labelcolor">Barcelona</ion-label>
+     <ion-button href="/details/Barcelona" fill="solid" slot="end">View</ion-button>
+  </ion-item>
+  <ion-item >
+    <ion-label class="labelcolor">Prague</ion-label>
+     <ion-button href="/details/Prague" fill="solid" slot="end">View</ion-button>
+  </ion-item>
+</ion-list>
+
+ 	<p class="button-row">
+        <ion-button href="/details/id">More details by href</ion-button>
+        <ion-button (click)="goToNavigate()">More details by Navigate</ion-button>
+  </p>
+
 </ion-content>
+
+
+
